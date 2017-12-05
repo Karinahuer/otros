@@ -1,0 +1,46 @@
+    <div class="footer">
+      <div class="col-md-6 col-md-offset-3 hidden-mobile">
+        <div class="col-md-6 links-foot" style="text-align: left !important;">
+          <a href="contacto.php">CONTACTO</a>
+        </div>
+        <div class="col-md-6 links-foot" style="text-align: right;">
+          <a href="mapa.php">MAPA DEL SITIO</a> 
+        </div>
+      </div>
+      <div class="col-md-10 col-md-offset-1 hidden-mobile"> 
+        <div class="col-md-1 iconos-foot">
+          <a href="http://www.cic-ctic.unam.mx/cic/" target="_blank"><img src="img/icono-CTIC.png" alt="ícono de la Coordinación de la Investigación Científica" height="40px"></a>
+        </div>
+        <div class="col-md-10 texto-foot">
+          <p>Esta página puede ser reproducida con fines no lucrativos, siempre y cuando no se mutile, se cite la fuente completa y su dirección electrónica. De otra forma, requiere permiso previo por escrito de la institución. Hecho en México, Universidad Nacional Autónoma de México (UNAM), todos los derechos reservados 2017</p>
+        </div>
+        <div class="col-md-1 iconos-foot">
+          <a href="http://www.icmyl.unam.mx/" target="_blank"><img src="img/icono-ICMYL.png" alt="ícono del Instituto de Ciencias del Mar y Linmología" height="40px"></a>
+        </div>
+      </div>  
+      <div class="visible-mobile-foot">
+        <div class="col-md-3">
+          <a href="contacto.php">CONTACTO</a>&nbsp; &nbsp;|&nbsp; &nbsp;<a href="mapa.php">MAPA DEL SITIO</a>&nbsp; &nbsp;|&nbsp; &nbsp;<a href="http://www.icmyl.unam.mx/">ICMYL</a>&nbsp; &nbsp;|&nbsp; &nbsp;<a href="http://www.cic-ctic.unam.mx/cic/">CTIC</a> 
+        </div>  
+      </div>
+    </div>  
+
+    <!-- scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom-js.js"></script>
+    <!-- <script src="js/npm.js"></script> -->
+    <script>
+      var navbar = document.getElementById("navbar");
+      var sticky = navbar.offsetTop;
+  
+      function myFunction() {
+        if (window.pageYOffset >= sticky) {
+          navbar.classList.add("sticky")
+        } else {
+          navbar.classList.remove("sticky");
+        }
+      }
+    </script>
+  </body>
+</html>
